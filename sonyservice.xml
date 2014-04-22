@@ -24,11 +24,7 @@
   <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="github" revision="cm-11.0" groups="qcom" />
   <project path="hardware/qcom/media" name="deedwar/android_hardware_qcom_media" remote="github" revision="cm-11.0" groups="qcom" />
 
-  <!-- Forked + changed repos -->
-  <remove-project path="build" name="android_build" remote="omnirom" revision="android-4.4" groups="pdk" />
-  <project path="build" name="omnozomi/android_build" remote="github" revision="android-4.4" groups="pdk" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
+  <!-- Forked + changed repo(s) -->
   <remove-project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-4.4" />
   <project path="frameworks/native" name="omnozomi/android_frameworks_native" remote="github" revision="android-4.4" />
 </manifest>
