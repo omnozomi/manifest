@@ -20,8 +20,8 @@
   <remove-project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" remote="github" groups="qcom_msm8960" />
 
   <!-- Replacements -->
-  <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="github" revision="cm-11.0" />
-  <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="github" revision="cm-11.0" groups="qcom" />
+  <project path="hardware/qcom/audio-caf" name="omnozomi/android_hardware_qcom_audio-caf" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/display-caf" name="omnozomi/android_hardware_qcom_display-caf" remote="github" revision="cm-11.0" groups="qcom" />
   <project path="hardware/qcom/media" name="deedwar/android_hardware_qcom_media" remote="github" revision="cm-11.0" groups="qcom" />
 
   <!-- Forked + changed repo(s) -->
