@@ -10,8 +10,8 @@
   <project path="vendor/sony" name="OpenSEMC/proprietary_vendor_sony" remote="github" revision="cm-11.0" />
   
   <!-- Linaro Toolchains -->
-  <project path="prebuilts/gcc/linux-x86/arm/LINARO-master" name="Cl3Kener/LINARO" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/LINARO-KERNEL" name="Cl3Kener/LINARO-KERNEL" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/LINARO-master" name="UBERUTILS/LINARO" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/LINARO-KERNEL" name="UBERUTILS/LINARO-KERNEL" remote="github" revision="master" />
   
   <!-- Removes -->
   <remove-project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="omnirom" revision="android-4.4" />
