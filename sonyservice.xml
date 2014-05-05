@@ -12,6 +12,7 @@
   <!-- Linaro Toolchains -->
   <project path="prebuilts/gcc/linux-x86/arm/LINARO-master" name="UBERUTILS/LINARO" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/LINARO-KERNEL" name="UBERUTILS/LINARO-KERNEL" remote="github" revision="master" />
+  <project path="patches" name="abcdjdj/patches_scripts" remote="github" revision="omni-fuji" />
   
   <!-- Removes -->
   <remove-project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="omnirom" revision="android-4.4" />
