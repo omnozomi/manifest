@@ -15,19 +15,13 @@
   <remove-project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="omnirom" revision="android-4.4" />
 
   <!-- Replacements -->
-  <project path="hardware/qcom/audio-caf" name="omnozomi/android_hardware_qcom_audio-caf" remote="github" revision="cm-11.0" />
-  <project path="hardware/qcom/display-caf" name="omnozomi/android_hardware_qcom_display-caf" remote="github" revision="cm-11.0" groups="qcom" />
+  <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="github" revision="cm-11.0" groups="qcom" />
   <project path="hardware/qcom/media" name="deedwar/android_hardware_qcom_media" remote="github" revision="cm-11.0" groups="qcom" />
 
   <!-- Forked + changed repo(s) -->
   <remove-project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-4.4"/>
   <project path="bootable/recovery" name="abcdjdj/android_bootable_recovery" remote="github" revision="android-4.4"/>
-  <remove-project path="system/core" name="android_system_core" remote="omnirom" revision="android-4.4" />
-  <project path="system/core" name="omnozomi/android_system_core" remote="github" revision="android-4.4" />
-  <remove-project path="system/vold" name="android_system_vold" remote="omnirom" revision="android-4.4" />
-  <project path="system/vold" name="omnozomi/android_system_vold" remote="github" revision="android-4.4" />
-  <remove-project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="omnirom" revision="android-4.4" />
-  <project path="external/bluetooth/bluedroid" name="omnozomi/android_external_bluetooth_bluedroid" remote="github" revision="android-4.4" />
   <remove-project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-4.4" />
   <project path="frameworks/native" name="omnozomi/android_frameworks_native" remote="github" revision="android-4.4" />
 </manifest>
